@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from wealcoder.com/dev/html/info/doctor/appointment.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 15 Oct 2023 07:37:44 GMT -->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="INFO HTML5 Template">
+
+  <title>Doctor Appointment</title>
+
+  <!-- Fav Icon -->
+  <link rel="icon" type="image/x-icon" href="../assets/imgs/logo/favicon.png">
+
+
+  <!-- All CSS files -->
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/all.min.css">
+  <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="../assets/css/progressbar.css">
+  <link rel="stylesheet" href="../assets/css/meanmenu.min.css">
+  <link rel="stylesheet" href="../assets/css/magnific-popup.css">
+  <link rel="stylesheet" href="../assets/css/basictable.min.css">
+  <link rel="stylesheet" href="../assets/css/master.css">
+  <link rel="stylesheet" href="../style.css">
+
+</head>
+
+
+
+<body class="font-heading-estedad">
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div id="container" class="container-preloader">
+      <div class="animation-preloader">
+        <div class="spinner"></div>
+        <div class="txt-loading">
+          <span data-text="I" class="characters">I</span>
+          <span data-text="N" class="characters">N</span>
+          <span data-text="F" class="characters">F</span>
+          <span data-text="O" class="characters">O</span>
+        </div>
+      </div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+    </div>
+  </div>
+
+  <!-- Cursor Animation -->
+  <div class="cursor1"></div>
+
+  <!-- Sroll to top -->
+  <div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+    </svg>
+  </div>
+
+  <!-- Switcher Area Start -->
+  <div class="switcher__area">
+    <div class="switcher__icon">
+      <button id="switcher_open"><i class="fa-solid fa-gear"></i></button>
+      <button id="switcher_close"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="switcher__items">
+      <div class="switcher__item">
+        <div class="switch__title-wrap">
+          <p class="switcher__title">mode</p>
+        </div>
+        <div class="switcher__btn mode-type wc-col-2">
+          <button class="active" data-mode="dark">dark</button>
+          <button data-mode="light">light</button>
+        </div>
+      </div>
+      <div class="switcher__item">
+        <div class="switch__title-wrap">
+          <p class="switcher__title">Language Support</p>
+        </div>
+        <div class="switcher__btn lang_dir wc-col-2">
+          <button class="active" data-mode="ltr">LTR</button>
+          <button data-mode="rtl">RTL</button>
+        </div>
+      </div>
+      <div class="switcher__item">
+        <div class="switch__title-wrap">
+          <p class="switcher__title">Layout</p>
+        </div>
+        <div class="switcher__btn layout-type wc-col-2">
+          <button class="active" data-mode="full-width">Full Width</button>
+          <button data-mode="box-layout">Box Layout</button>
+        </div>
+      </div>
+      <div class="switcher__item">
+        <div class="switch__title-wrap">
+          <p class="switcher__title">Cursor</p>
+        </div>
+        <div class="switcher__btn">
+          <select name="cursor-style" id="cursor_style">
+            <option value="1">default</option>
+            <option selected value="2">animated</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Switcher Area End -->
+
+  <!-- Offcanves start -->
+  <div class="offcanvas__area">
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasOne">
+      <button class="offcanvas__close" data-bs-dismiss="offcanvas"><i class="fa-solid fa-xmark"></i></button>
+      <div class="offcanvas__body">
+        <div class="offcanvas__logo">
+          <a href="index-2.html">
+            <img src="../assets/imgs/logo/site-logo-light.png" class="show-dark" alt="Offcanvas Logo">
+            <img src="../assets/imgs/logo/site-logo-dark.png" class="show-light" alt="Offcanvas Logo">
+          </a>
+          <p>Create live segments and target the right people for messages based on their behaviors.</p>
+        </div>
+        <div class="offcanvas__menu-area">
+          <div class="offcanvas__menu-wrapper"></div>
+        </div>
+        <div class="offcanvas__gallery">
+          <p class="offcanvas__title">gallery</p>
+          <div class="gallery__items">
+            <div class="gallery__item">
+              <a href="#"><img src="../assets/imgs/thumb/gallery.jpg" alt="gallery Image">
+                <span><i class="fa-brands fa-instagram"></i></span></a>
+            </div>
+            <div class="gallery__item">
+              <a href="#"><img src="../assets/imgs/thumb/gallery-2.jpg" alt="gallery Image">
+                <span><i class="fa-brands fa-instagram"></i></span></a>
+            </div>
+            <div class="gallery__item">
+              <a href="#"><img src="../assets/imgs/thumb/gallery-3.jpg" alt="gallery Image">
+                <span><i class="fa-brands fa-instagram"></i></span></a>
+            </div>
+            <div class="gallery__item">
+              <a href="#"><img src="../assets/imgs/thumb/gallery-4.jpg" alt="gallery Image">
+                <span><i class="fa-brands fa-instagram"></i></span></a>
+            </div>
+            <div class="gallery__item">
+              <a href="#"><img src="../assets/imgs/thumb/gallery-5.jpg" alt="gallery Image">
+                <span><i class="fa-brands fa-instagram"></i></span></a>
+            </div>
+            <div class="gallery__item">
+              <a href="#"><img src="../assets/imgs/thumb/gallery-6.jpg" alt="gallery Image">
+                <span><i class="fa-brands fa-instagram"></i></span></a>
+            </div>
+          </div>
+        </div>
+        <div class="offcanvas__media">
+          <p class="offcanvas__title">Follow</p>
+          <ul>
+            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Offcanves end -->
+
+
+  <div class="has-smooth" id="has_smooth"></div>
+  <div id="smooth-wrapper">
+    <div id="smooth-content">
+
+
+      <!-- Header area start -->
+      <header class="header__doctor border-btm plr-100">
+        <div class="doctor-header__inner">
+          <div class="doctor-header__logo">
+            <a href="index-2.html">
+              <img src="../assets/imgs/doctor/logo.png" alt="Site Logo">
+            </a>
+          </div>
+          <div class="doctor-header__nav">
+            <nav class="main-menu">
+              <ul>
+                <li><a href="index-2.html">home</a></li>
+                <li><a href="about.html">about</a></li>
+                <li class="menu-item-has-children"><a href="#">Pages</a>
+                  <ul class="dp-menu">
+                    <li> <a href="index-light.html">home <span class="new">light</span></a></li>
+                    <li> <a href="about.html">about</a></li>
+                    <li> <a href="about-light.html">about <span class="new">light</span></a></li>
+                    <li><a href="appointment.html">Appointment</a></li>
+                    <li><a href="appointment-light.html">Appointment <span class="new">light</span></a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="blog-light.html">blog <span class="new">light</span></a></li>
+                    <li><a href="blog-details.html">blog details</a></li>
+                    <li><a href="blog-details-light.html">blog details <span class="new">light</span></a></li>
+                    <li><a href="contact.html">contact</a></li>
+                    <li><a href="contact-light.html">contact <span class="new">light</span></a></li>
+                  </ul>
+                </li>
+                <li><a href="appointment.html">Appointment</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="doctor-header__others">
+            <div class="wc_call_us">
+              <a href="tel:81234567891"><span>Call us</span> +8 123 456 7891 </a>
+              <i class="fa-solid fa-phone-volume"></i>
+            </div>
+            <div class="signup-btn">
+              <a href="#" class="wc-btn-primary btn-hover-cropping">
+                <i class="fa-solid fa-user-plus"></i> signup</a>
+            </div>
+          </div>
+
+          <div class="doctor-header__navicon">
+            <button id="open_offcanvas" data-bs-toggle="offcanvas" data-bs-target="#offcanvasOne">
+              <span class="menu-icon"><span></span></span> </button>
+          </div>
+        </div>
+      </header>
+      <!-- Header area end -->
+
+
+      <main>
+
+
+        <!-- Appointment form start -->
+        <section class="doctor__appointment wc-bg-blue-8">
+          <div class="container">
+            <div class="doctor__appointment-wrapper">
+              <div class="doctor__appointment-item pt-140 pb-150">
+                <div class="doctor__appointment-titlewrapper">
+                  <h2 class="doctor__appointment-title">Make an <br> Appointment</h2>
+                </div>
+                <div class="doctor__appointment-form pt-80">
+                  <form action="#">
+                    <div class="doctor__appointment-fieldwrapper">
+                      <div class="doctor__appointment-field">
+                        <label for="name">Name*</label>
+                        <input type="text" name="name" id="name" placeholder="Your name">
+                      </div>
+                      <div class="doctor__appointment-field">
+                        <label for="name">Phone*</label>
+                        <input type="text" name="number" id="number" placeholder="Phone number">
+                      </div>
+                    </div>
+                    <div class="doctor__appointment-fieldwrapper">
+                      <div class="doctor__appointment-field">
+                        <label for="email">Email (Optional)</label>
+                        <input type="email" name="email" id="email" placeholder="Your email">
+                      </div>
+                      <div class="doctor__appointment-field">
+                        <label for="Age">Age*</label>
+                        <input type="text" name="Age" id="Age" placeholder="Your Age">
+                      </div>
+                    </div>
+                    <div class="doctor__appointment-fieldwrapper">
+                      <div class="doctor__appointment-field">
+                        <label for="date">Select Date* </label>
+                        <input type="email" name="date" id="date" placeholder="dd/mm/yyyy">
+                      </div>
+                      <div class="doctor__appointment-field">
+                        <label>Select Time*</label>
+                        <input type="text" name="time" placeholder="00:00">
+                      </div>
+                    </div>
+                    <div class="doctor__appointment-textarea">
+                      <label for="msg">Problem (Diseases)*</label>
+                      <textarea name="msg" id="msg" placeholder="Write your diseases......"></textarea>
+                    </div>
+                    <div class="doctor__appointment-formbtn">
+                      <button type="submit" class="wc-btn-primary btn-hover-cropping submit">
+                        <i class="fa-solid fa-calendar-days"></i>Appointment</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+
+              <div class="doctor__appointment-thumbs">
+                <div class="cf_image doctor__appointment-img1">
+                  <img src="../assets/imgs/inner/doctor/people-1.jpg" alt="thumb">
+                </div>
+                <div class="doctor__appointment-thumb">
+                  <span class="doctor__appointment-scheduletitle">Appointment <br> Schedule</span>
+                  <div class="pt-40">
+                    <ul class="doctor-schedule__time appointment-schedule">
+                      <li><span>Sunday</span> <span>10:30 am - 1:00 pm</span> <span>5:30 pm - 8:30 pm</span></li>
+                      <li><span>Tuesday</span> <span>10:30 am - 1:00 pm</span> <span>5:30 pm - 8:30 pm</span></li>
+                      <li><span>Wednesday</span> <span>10:30 am - 1:00 pm</span> <span>5:30 pm - 8:30 pm</span></li>
+                      <li><span>Friday</span> <span>10:30 am - 1:00 pm</span> <span>5:30 pm - 8:30 pm</span></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Appointment form end -->
+
+
+        <!-- Chamber area start -->
+        <section class="doctor-chamber__area pt-130 pb-150">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-12">
+                <div class="sec-title-wrap">
+                  <h2 class="sec-title-9 has_text_reveal_anim">Meet <br> My Chambers</h2>
+                </div>
+                <div class="doctor-chamber__width pt-40">
+                  <div class="doctor-chamber__list">
+                    <div class="doctor-chamber__item has_fade_anim">
+                      <span>Location</span>
+                      <span>Hospital</span>
+                      <span>Room No</span>
+                    </div>
+                    <div class="doctor-chamber__item has_fade_anim">
+                      <span>New York, USA</span>
+                      <span>Green Eyecare <br> Hospital</span>
+                      <span>168</span>
+                    </div>
+                    <div class="doctor-chamber__item has_fade_anim">
+                      <span>California, USA</span>
+                      <span>Paragon Medical <br> College</span>
+                      <span>247</span>
+                    </div>
+                    <div class="doctor-chamber__item has_fade_anim">
+                      <span>Indiana, USA</span>
+                      <span>Savron Cardiac <br> Hospital</span>
+                      <span>84</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="cf_image doctor-chamber__img img_anim_reveal">
+            <img src="../assets/imgs/doctor/bg.jpg" alt="Image">
+          </div>
+        </section>
+        <!-- Chamber area end -->
+
+
+      </main>
+
+
+      <!-- Footer start -->
+      <footer class="doctor-footer__area wc-bg-blue-6 pt-110 pb-15">
+        <div class="container">
+          <div class="row">
+            <div class="col-xxl-12">
+              <div class="doctor-footer__top">
+                <div class="doctor-footer__logo">
+                  <img src="../assets/imgs/doctor/logo.png" alt="Logo">
+                </div>
+                <div class="separator"></div>
+                <div class="doctor__footer-social">
+                  <ul class="doctor-social-media">
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="doctor-footer__mid">
+                <div class="doctor-footer__menu-wrap">
+                  <ul class="doctor-footer__menu">
+                    <li><a href="#">Motivation</a></li>
+                    <li><a href="#">Career</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">Marketing</a></li>
+                    <li><a href="#">Evenets</a></li>
+                    <li><a href="#">Journey</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Inspiration</a></li>
+                  </ul>
+                </div>
+
+                <div class="doctor-download__wrap">
+                  <p>Download mobile app</p>
+                  <div class="doctor-download__app">
+                    <a href="#"><img src="../assets/imgs/doctor/play-store.png" alt="Google Play Store"></a>
+                    <a href="#"><img src="../assets/imgs/doctor/app-store.png" alt="App Store"></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="separator"></div>
+
+              <div class="doctor-footer__btm">
+                <div class="doctor-copyright">
+                  <p>© Alrights reserved by <br> <a href="https://wealcoder.com/" target="_blank">Wealcoder</a></p>
+                </div>
+
+                <div class="wc_call_us">
+                  <a href="tel:81234567891"><span>Call us</span> +8 123 456 7891 </a>
+                  <i class="fa-solid fa-phone-volume"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- Footer end -->
+
+
+    </div>
+  </div>
+
+
+
+  <!-- All JS files -->
+  <script src="../assets/js/jquery-3.6.0.min.js"></script>
+  <script src="../assets/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="../assets/js/swiper-bundle.min.js"></script>
+  <script src="../assets/js/counter.js"></script>
+  <script src="../assets/js/typed.js"></script>
+  <script src="../assets/js/mixitup.min.js"></script>
+  <script src="../assets/js/progressbar.js"></script>
+  <script src="../assets/js/gsap.min.js"></script>
+  <script src="../assets/js/ScrollSmoother.min.js"></script>
+  <script src="../assets/js/ScrollToPlugin.min.js"></script>
+  <script src="../assets/js/ScrollTrigger.min.js"></script>
+  <script src="../assets/js/SplitText.min.js"></script>
+  <script src="../assets/js/TweenMax.min.js"></script>
+  <script src="../assets/js/jquery.meanmenu.min.js"></script>
+  <script src="../assets/js/tilt.jquery.min.js"></script>
+  <script src="../assets/js/beforeafter.jquery-1.0.0.min.js"></script>
+  <script src="../assets/js/basictable.min.js"></script>
+  <script src="../assets/js/backToTop.js"></script>
+  <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/error-handling.js"></script>
+  <script src="../assets/js/wc-cursor.js"></script>
+
+
+</body>
+
+
+<!-- Mirrored from wealcoder.com/dev/html/info/doctor/appointment.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 15 Oct 2023 07:37:45 GMT -->
+</html>
